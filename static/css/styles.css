@@ -1,0 +1,21 @@
+body {
+    background-color: #EDEDED;
+}
+.navbar{
+    background-color: #0BADA6;
+    height: 80px;       
+}
+
+#MLApp,#CCClassifer{
+    color:white;
+}
+
+footer{
+    background-color: #666666;
+    color:white;
+    border-top: 5px solid #0BADA6;
+}
+
+.results{
+    color:#0BADA6;
+}

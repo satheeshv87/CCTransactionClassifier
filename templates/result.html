@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MLApp</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class="header">
+		<nav class="navbar navbar-expand-md navbar-light">
+		  <h1 id="MLApp">ML Flask App - Credit Card Transaction Classifier</h1>
+		</nav>
+	</div>
+
+	<p>Transaction Description is classified as: </p>
+	<div class="results">
+        {%for each in prediction%}
+        <h2><b>{{each}}</b></h2>
+        {%endfor%}		
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	</div>
+
+	<footer class="page-footer font-small blue">
+		<div class="footer-copyright text-center py-3">© Copyright Satheesh Veerapandian 2019</div>
+	</footer>	
+
+</body>
+</html>
