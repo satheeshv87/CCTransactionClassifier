@@ -16,3 +16,6 @@
 ## App
 ![image](https://user-images.githubusercontent.com/22437603/67712056-3bc74500-f991-11e9-9539-c864d4488e1e.png)
 ![image](https://user-images.githubusercontent.com/22437603/67712063-3ec23580-f991-11e9-889e-96b97b4add3a.png)
+
+## Analysis
+![image](https://user-images.githubusercontent.com/22437603/67712123-5f8a8b00-f991-11e9-9b88-a1d79f72e609.png)
